@@ -7,10 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // backgroundImage: {
+      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      //   'gradient-conic':
+      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      // },
+      fontFamily: {
+        'gloria': ['"Gloria Hallelujah"', 'cursive'],
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'union': "url('/Union.png')",
+        'footer-background': "url('/Vector 2.png')",
+      },
+      backgroundSize: {
+        'union': '80px 89px',
+        'footer-background': 'cover',
       },
     },
   },
