@@ -20,7 +20,7 @@ export default function CardMobile() {
       name: "Harish Kumar",
       description: "CEO & Founder CrowlQ.ai",
       writings:<div>
-"Team growth.cx did a great job in helping us revamp our website to make it stand on par with global SaaS brands which turned our Appsumo campaign into a huge success.",
+Team growth.cx did a great job in helping us revamp our website to make it stand on par with global SaaS brands which turned our Appsumo campaign into a huge success.,
       </div>,
       servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
       {  src: "chayan 1.png",
@@ -28,7 +28,7 @@ export default function CardMobile() {
           name: "chayan mukherje",
       description: "CEO & Founder Qandle",
       writings:<div>
-"As a growth marketing partner, the impact growth.cx creates is tremendous. Organic traffic was something we really wanted to multiply. They just came in and took it to another level in  just 3 months",
+As a growth marketing partner, the impact growth.cx creates is tremendous. Organic traffic was something we really wanted to multiply. They just came in and took it to another level in  just 3 months,
       </div>,
       
       servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
@@ -75,7 +75,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
    <div className='ml-2'>
  <img src={firstDataItem.srclogo} />
    </div>
-   <div className='text-bold '>{firstDataItem.name} <br/> {firstDataItem.description}</div>
+   <div className='text-bold'>{firstDataItem.name} <br/> {firstDataItem.description}</div>
 
     </div>
    </div>
@@ -155,7 +155,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
         <SwiperSlide>
             <div className='ml-32 sm:p-6 mt-4'>
                 
-<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div className='flex'>
     <div>
    <img  width={68}
@@ -173,10 +173,10 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
   
    
     <a href="#">
-        <h5 class="mb-2 text-xl font-semibold text-gray-900 mt-2">Team growth.cx did a great job in <br/>  helping us revamp our website to make it stand on par with global SaaS brands which turned our Appsumo campaign into a huge success.
+        <h5 className="mb-2 text-xl font-semibold text-gray-900 mt-2">Team growth.cx did a great job in <br/>  helping us revamp our website to make it stand on par with global SaaS brands which turned our Appsumo campaign into a huge success.
 </h5>
     </a>
-    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Servies Provided:</p>
+    <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">Servies Provided:</p>
    
 </div>
 
