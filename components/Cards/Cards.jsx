@@ -92,7 +92,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
               <img
                 width={94}
                 height={99}
-                src="Vector (1).png"
+                src="/Vector (1).png"
                 alt="Vector"
                 className="mb-4"
               />
@@ -147,7 +147,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
              <img
                width={94}
                height={99}
-               src="Vector (1).png"
+               src="/Vector (1).png"
                alt="Vector"
                className="mb-4"
              />
@@ -198,7 +198,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
               <img
                 width={94}
                 height={99}
-                src="Vector (1).png"
+                src="/Vector (1).png"
                 alt="Vector"
                 className="mb-4"
               />
@@ -252,7 +252,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
              <img
                width={94}
                height={99}
-               src="Vector (1).png"
+               src="/Vector (1).png"
                alt="Vector"
                className="mb-4"
              />

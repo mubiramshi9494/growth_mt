@@ -68,7 +68,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div className='flex'>
     <div>
-   <img  width={68}
+   <img width={68}
               height={68} src={firstDataItem.src} className='ml-2'/>
    </div>
    <div className='ml-2 gap-2'>

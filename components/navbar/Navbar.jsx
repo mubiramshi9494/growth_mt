@@ -1,5 +1,6 @@
 import {React,useState} from 'react'
-import Image from "next/image";
+
+ import Image from "next/image";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
       <nav className="shadow-lg p-4 sticky top-0 z-10">
         <div className="container flex items-center sm:justify-between ">
           <div className="text-2xl font-bold flex items-center">
-            <img src="GROWTHCX-10 1.png" alt="Logo"  className="mr-2"/>
+            <img src="/GROWTHCX-10 1.png" alt="Logo" width={200} height={200} className="mr-2"/>
             
           </div>
           <div

@@ -6,13 +6,13 @@ const Footer = () => {
     
        <footer className="bg-footer-background bg-no-repeat text-white sm:footer-background lg:w-[1871px] lg:h-[722px] flex justify-center items-center sm:flex-col sm:mt-64">
        <div className='lg:ml-[-35rem]   sm:ml-[25rem] '>
-        <img src="Ellipse 10.png"/>
+        <img src="/Ellipse 10.png"/>
     </div>
        <div className='lg:ml-[-38rem]   sm:ml-[22rem] '>
-        <img src="Ellipse 9.png"/>
+        <img src="/Ellipse 9.png"/>
     </div>
        <div className='lg:ml-[-47rem] mb-80 sm:ml-[19rem]  '>
-        <img src="Ellipse 8.png"/>
+        <img src="/Ellipse 8.png"/>
     </div>
    
          <div className=" sm:text-left mt-10 text-center">
