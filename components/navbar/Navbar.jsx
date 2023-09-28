@@ -1,6 +1,7 @@
 import {React,useState} from 'react'
 
  import Image from "next/image";
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
       <nav className="shadow-lg p-4 sticky top-0 z-10">
         <div className="container flex items-center sm:justify-between ">
           <div className="text-2xl font-bold flex items-center">
-            <img src="/GROWTHCX-10 1.png" alt="Logo" width={200} height={200} className="mr-2"/>
+            <Image src="/GROWTHCX-10 1.png" alt="Logo" width={200} height={200} className="mr-2"/>
             
           </div>
           <div
@@ -63,16 +64,16 @@ const Navbar = () => {
           </div>
           <ul className={`lg:flex space-x-8 ${isMobileMenuOpen ? '' : 'hidden'} text-2xl font-bold leading-6 `}>
           <li className='lg-hidden'>
-              <a href="/" onClick={closeMobileMenu}>
+              <Link href="/" onClick={closeMobileMenu}>
                 <button className='block lg:hidden'>Close</button>
-              </a>
+              </Link>
             </li>
-            <li ><a href="/" onClick={toggleMobileMenu}>Why Us</a></li>
-            <div className=''><a href="/about" onClick={toggleMobileMenu}> <div className='line-through font-gloria decoration-gray-900'>Your pains</div> <span className=''>Our Fixes</span></a></div>
-            <li><a href="/contact" onClick={toggleMobileMenu}>Growth</a></li>
-            <li><a href="/contact" onClick={toggleMobileMenu}>Eye Openers</a></li> 
-            <li><a href="/contact" onClick={toggleMobileMenu}>Customers</a></li>
-            <button className='bg-black text-white rounded-lg p-1 ml-4 '><a href="/contact" onClick={toggleMobileMenu}>Hop on a call</a></button>
+            <li ><Link href="/" onClick={toggleMobileMenu}>Why Us</Link></li>
+            <div className=''><Link href="/about" onClick={toggleMobileMenu}> <div className='line-through font-gloria decoration-gray-900'>Your pains</div> <span className=''>Our Fixes</span></Link></div>
+            <li><Link href="/contact" onClick={toggleMobileMenu}>Growth</Link></li>
+            <li><Link href="/contact" onClick={toggleMobileMenu}>Eye Openers</Link></li> 
+            <li><Link href="/contact" onClick={toggleMobileMenu}>Customers</Link></li>
+            <button className='bg-black text-white rounded-lg p-1 ml-4 '><Link href="/contact" onClick={toggleMobileMenu}>Hop on a call</Link></button>
           </ul>
         </div>
       </nav>

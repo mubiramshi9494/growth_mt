@@ -68,12 +68,12 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div className='flex'>
     <div>
-   <img width={68}
-              height={68} src={firstDataItem.src} className='ml-2'/>
+   <Image width={68}
+           alt=""   height={68} src={firstDataItem.src} className='ml-2'/>
    </div>
    <div className='ml-2 gap-2'>
    <div className='ml-2'>
- <img src={firstDataItem.srclogo} />
+ <Image src={firstDataItem.srclogo} alt="" />
    </div>
    <div className='text-bold'>{firstDataItem.name} <br/> {firstDataItem.description}</div>
 
@@ -98,12 +98,12 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div className='flex'>
     <div>
-   <img  width={68}
+   <Image  alt="" width={68}
               height={68} src={seconddataItem.src} className='ml-2'/>
    </div>
    <div className='ml-2 gap-2'>
    <div className='ml-2'>
- <img src={seconddataItem.srclogo} />
+ <Image src={seconddataItem.srclogo} alt=""/>
    </div>
    <div className='text-bold '>{seconddataItem.name} <br/> {seconddataItem.description}</div>
 
@@ -128,12 +128,12 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div className='flex'>
     <div>
-   <img  width={68}
-              height={68} src={thirddataItem.src} className='ml-2'/>
+   <Image  width={68}
+         alt=""     height={68} src={thirddataItem.src} className='ml-2'/>
    </div>
    <div className='ml-2 gap-2'>
    <div className='ml-2'>
- <img src={thirddataItem.srclogo} />
+ <Image src={thirddataItem.srclogo}  alt=""/>
    </div>
    <div className='text-bold '>{thirddataItem.name} <br/> {thirddataItem.description}</div>
 
@@ -158,12 +158,12 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
 <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div className='flex'>
     <div>
-   <img  width={68}
+   <Image  width={68} alt=""
               height={68} src={thirddataItem.src} className='ml-2'/>
    </div>
    <div className='ml-2 gap-2'>
    <div className='ml-2'>
- <img src={thirddataItem.srclogo} />
+ <Image src={thirddataItem.srclogo} alt="" />
    </div>
    <div className='text-bold '>{thirddataItem.name} <br/> {thirddataItem.description}</div>
 

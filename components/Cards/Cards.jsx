@@ -9,7 +9,7 @@ const cards = () => {
         name: "Harish Kumar",
         description: "CEO & Founder CrowlQ.ai",
         writings:<div>
-"Team growth.cx did a great job in helping us <br/>revamp our website to make it stand on par<br/> with global SaaS brands which turned our <br/>Appsumo campaign into a huge success.",
+Team growth.cx did a great job in helping us <br/>revamp our website to make it stand on par<br/> with global SaaS brands which turned our <br/>Appsumo campaign into a huge success.,
         </div>,
         servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
         {  src: "chayan 1.png",
@@ -17,7 +17,7 @@ const cards = () => {
             name: "chayan mukherje",
         description: "CEO & Founder Qandle",
         writings:<div>
-"As a growth marketing partner, the impact <br/>growth.cx creates is tremendous. Organic traffic <br/>was something we really wanted to multiply.<br/> They just came in and took it to another level in <br/> just 3 months",
+As a growth marketing partner, the impact <br/>growth.cx creates is tremendous. Organic traffic <br/>was something we really wanted to multiply.<br/> They just came in and took it to another level in <br/> just 3 months,
         </div>,
         
         servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
@@ -55,7 +55,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
             <div className=" gap-4">
             <div className="rounded-lg mb-12 mr-80">
   <div className="text-lg font-semibold">
-  <img
+  <Image
               width={94}
               height={94}
               src={firstDataItem.srclogo}
@@ -77,7 +77,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
               </div>
             </div>
             <div>
-  <img
+  <Image
               width={224}
               height={224}
               src={firstDataItem.src}
@@ -89,7 +89,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
            
            
             <div className="flex items-center justify-end absolute right-24 bottom-11 pr-10 pb-4">
-              <img
+              <Image
                 width={94}
                 height={99}
                 src="/Vector (1).png"
@@ -108,7 +108,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
                
           
            <div>
- <img
+ <Image
              width={224}
              height={224}
              src={seconddataItem.src}
@@ -119,7 +119,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
            <div className=" gap-8">
            <div className="rounded-lg mb-12 mr-80">
  <div className="text-lg font-semibold">
- <img
+ <Image
              width={94}
              height={94}
              src={seconddataItem.srclogo}
@@ -144,7 +144,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
           
           
            <div className="flex items-center justify-end absolute right-24 top-0 pr-10 pb-4">
-             <img
+             <Image
                width={94}
                height={99}
                src="/Vector (1).png"
@@ -161,7 +161,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
             <div className=" gap-4">
             <div className="rounded-lg mb-12 mr-80">
   <div className="text-lg font-semibold">
-  <img
+  <Image
               width={94}
               height={94}
               src={thirddataItem.srclogo}
@@ -183,7 +183,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
               </div>
             </div>
             <div>
-  <img
+  <Image
               width={224}
               height={224}
               src={thirddataItem.src}
@@ -195,7 +195,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
            
            
             <div className="flex items-center justify-end absolute right-24 bottom-11 pr-10 pb-4">
-              <img
+              <Image
                 width={94}
                 height={99}
                 src="/Vector (1).png"
@@ -213,7 +213,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
                
           
            <div>
- <img
+ <Image
              width={224}
              height={224}
              src={fourthdataItem.src}
@@ -224,7 +224,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
            <div className=" gap-8">
            <div className="rounded-lg mb-12 mr-80">
  <div className="text-lg font-semibold">
- <img
+ <Image
              width={94}
              height={94}
              src={fourthdataItem.srclogo}
@@ -249,7 +249,7 @@ servicesProvided: ["GTM Consulting", "Growth Marketing", "Design"] },
           
           
            <div className="flex items-center justify-end absolute right-24 top-0 pr-10 pb-4">
-             <img
+             <Image
                width={94}
                height={99}
                src="/Vector (1).png"
